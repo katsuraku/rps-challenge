@@ -11,5 +11,7 @@ group :test do
   gem 'byebug'
   gem 'launchy'
   gem 'rspec-sinatra'
+  gem 'rubocop'
+  gem 'rubocop-rspec'
   gem 'shotgun'
 end
