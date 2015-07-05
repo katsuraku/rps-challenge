@@ -9,4 +9,11 @@ describe Player do
   it 'has a choice' do
     expect(subject).to respond_to(:choice)
   end
+
+  describe 'choose' do
+    it 'determines what the choice of the player is' do
+      subject.choose('rock')
+      expect(subject.choice).to eq 'rock'
+    end
+  end
 end
