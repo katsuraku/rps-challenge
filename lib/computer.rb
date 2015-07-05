@@ -2,7 +2,9 @@ require_relative 'game'
 
 class Computer
 
-  def choose
+  attr_reader :choice
 
+  def choose
+    
   end
 end
