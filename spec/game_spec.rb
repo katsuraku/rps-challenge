@@ -7,4 +7,8 @@ describe Game do
     expect(game).to respond_to(:player1)
   end
 
+  it 'has a player 2' do
+    game = Game.new(Computer)
+    expect(game).to respond_to(:player2)
+  end
 end
