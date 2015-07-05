@@ -20,19 +20,19 @@ class Game
   def result
     case
     when (player1_choice == 'rock') && (player2_choice == 'scissors')
-      return 'Player 1 won!'
+      return 'Player1'
     when (player1_choice == 'scissors') && (player2_choice == 'paper')
-      return 'Player 1 won!'
+      return 'Player1'
     when (player1_choice == 'paper') && (player2_choice == 'rock')
-      return 'Player 1 won!'
+      return 'Player1'
     when (player1_choice == player2_choice)
-      return 'It\'s a draw!'
+      return 'None'
     when (player1_choice == 'rock') && (player2_choice == 'paper')
-      return 'Player 2 won!'
+      return 'Player2'
     when (player1_choice == 'scissors') && (player2_choice == 'rock')
-      return 'Player 2 won!'
+      return 'Player2'
     when (player1_choice == 'paper') && (player2_choice == 'scissors')
-      return 'Player 2 won!'
+      return 'Player2'
     else
       return 'Uh oh.'
     end

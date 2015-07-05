@@ -24,6 +24,6 @@ describe Game do
     game = Game.new(Player)
     game.player1.choose('rock')
     game.player2.choose('scissors')
-    expect(game.result).to eq 'Player 1 won!'  
+    expect(game.result).to eq 'Player1'  
   end
 end
