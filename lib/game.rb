@@ -9,9 +9,11 @@ class Game
     @player2 = playerclass.new
   end
 
-  # def
-  #
-  # def add_player(class)
-  #   @players.count>0 ? player1 = Player.ne
-  #
+  def player1_choice
+    self.player1.choice
+  end
+
+  def player2_choice
+    self.player2.choice
+  end
 end
