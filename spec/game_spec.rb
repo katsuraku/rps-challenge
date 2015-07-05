@@ -19,4 +19,11 @@ describe Game do
     expect(game.player1_choice).to eq 'rock'
     expect(game.player2_choice).to eq 'paper'
   end
+
+  it 'knows the result of the round' do
+    game = Game.new(Player)
+    game.player1.choose('rock')
+    game.player2.choose('scissors')
+    expect(game.result).to eq 'Player 1 won!'  
+  end
 end
